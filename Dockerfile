@@ -4,4 +4,4 @@ COPY . /app
 
 WORKDIR /app
 
-CMD python3 -m compose_tree
+CMD python3 -m gitgraph_server
