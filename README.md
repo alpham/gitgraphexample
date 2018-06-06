@@ -1,10 +1,10 @@
-##Installation
+## Installation
 No need to any special requirements, just `python 3.6+` would be enough.
 ### Docker 
 If you want to you may install `docker`.
 ### Docker Compose
 If you want to you may install `docker-compose`.
-##Initialization
+## Initialization
 
 #### As a python module:
 ```bash
@@ -40,7 +40,7 @@ The server accepts the following optional url parameters:
 `page` \<int\> : Page number 
 
 
-####Example
+#### Example
 
 ```http://localhost:8000/?page=2&owner=odoo&repo=odoo```
 
