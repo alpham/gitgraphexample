@@ -1,0 +1,14 @@
+# Python
+*.py[cod]
+venv/
+# tmpl
+*.cache
+
+# Editor
+*.sw[po]
+
+# node
+node_modules/
+
+tmp/
+refs/
