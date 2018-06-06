@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Git graph example page</title>
+    <link href="https://fonts.googleapis.com/css?family=Song+Myung" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Song Myung', serif;
+
+        }
+        .pull-left{
+            float: left !important;
+        }
+
+        #commit-graph{
+            margin-top: 16px;
+        }
+
+        #commit-msg {
+            margin-left: -40px;
+        }
+
+        #commit-msg ul li {
+            margin-bottom: -0.04px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+<!--<canvas id="gitGraph"></canvas>-->
+
+<div id="commit-graph" class="pull-left"></div>
+<div id="commit-msg" class="pull-left">
+    <ul>
+    </ul>
+</div>
+
+
+<script src="./commits-graph/js/lib/jquery.min.js" type="text/javascript"></script>
+<script src="./commits-graph/js/dist/jquery.commits-graph.min.js" type="text/javascript"></script>
+<script src="./main.js"></script>
+</body>
+
+</html>
